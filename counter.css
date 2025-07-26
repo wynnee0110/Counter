@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.counter-container {
+ background-color: rgba(0, 0, 0, 0.63);
+ padding: 3rem 3rem;
+ border-radius: 20px;
+ text-align: center;
+ backdrop-filter: blur(10px);
+ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+#countLabel {
+display: block;
+font-size: 6rem;
+color: azure;
+margin-bottom: 2rem;
+align-items: center;
+justify-content: center;
+
+}
+
+#increase {
+ border-radius: 5px;
+ font-size: 1.5rem;
+
+}
+
+#start{
+ border-radius: 5px;
+ font-size: 1.5rem;
+}
+
+#decrease {
+ border-radius: 5px;
+ font-size: 1.5rem;
+}
+
+button {
+
+}
